@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--This document has the same content as links-same-page.html to show the difference between the two-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Same Page Links</title>
+        <style>
+            h1 {
+                font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+                font-size: 30px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px;
+                color:cornflowerblue; 
+            }
+            h3 { 
+                font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+                font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px;
+                color: pink; 
+            }
+            p {
+                font-size: 20px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1 id="top">Links to Sections of the Same Page</h1>
+        <section>
+            <ul>
+                <!--The following links are for each section of the page-->
+                <!--The "#section1" is a ***fragment identifier***, which is a link to a part of the same web page-->
+                <li><a href="#section1">#section1</a></li>
+                <li><a href="#section2">#section2</a></li>
+                <li><a href="#section3">#section3</a></li>
+                <li><a href="#section4">#section4</a></li>
+            </ul>
+        </section>
+
+        <section id="section1">
+            <h3>(#section1)</h3>
+            <p>
+                To see how the original document looks without CSS3 styling, press 
+                <a href="links-same-page.html" target="_blank" title="links-same-page.html">here</a>
+                .
+            </p>
+        </section>
+
+        <section id="section2">
+            <h3>(#section 2)</h3>
+            <p>
+                Computer science is concerned with the study of hardware, software, and theoretical aspects of 
+                high-speed computing devices and with the application of these devices to scientific, technological, 
+                and business problems.
+            </p>
+
+        </section>
+
+        <section id="section3">
+            <h3>(#section 3)</h3>
+            <p>
+                A bachelor's degree gives students a basic understanding of computer science. After completing a 
+                required set of fundamental courses, students arrange their subsequent work around one of several 
+                upper division tracks within either computer science or an interdisciplinary area involving computer 
+                applications. The degree prepares students for graduate work or for various industrial, governmental, 
+                and business positions involving the use of computers.
+            </p>
+        </section>
+
+        <section id="section4">
+            <h3>(#section 4)</h3>
+            <p>
+                The B.S. more upper division credits in computer science and related areas allowing the student to pursue 
+                more deeply a particular area of computer science and tailor the degree to a specific area of interest. For 
+                students who are more likely to practice in an area that is highly specialized or technical, the B.S. may 
+                provide a better background than our B.A. in Computer Science.
+            </p>
+        </section>
+
+        <div>
+            Back to top: <a href="#top">Back to top</a>
+        </div>
+    </body>
+</html>
